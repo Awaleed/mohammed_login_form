@@ -1,0 +1,108 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     height: 100vh;
+     background-image: url(./Mypic.jpg);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .card {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 1em;
+     background: transparent;
+     max-width: 400px;
+     width: 90%;
+     box-shadow: 0 0 23px #ddd;
+     border-radius: 18px;
+     text-align: center;
+ }
+
+ h1 {
+     width: 100%;
+     color: #fff;
+     font-size: 3em;
+ }
+
+ hr {
+     width: 100%;
+     background: #fff;
+     margin: .3em 0;
+ }
+
+ label,
+ h3 {
+     width: 100%;
+     font-size: 1.2em;
+     color: #fff;
+     padding: .5em 0;
+ }
+
+ label {
+     text-align: left;
+ }
+
+ h3 {
+     font-weight: normal;
+     margin: 10px;
+ }
+
+ .inputs {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+     margin: 2em 0;
+ }
+
+ input {
+     width: 100%;
+     border-radius: 8px;
+     border: none;
+     padding: 1em 2em;
+ }
+
+ .forget {
+     text-align: right;
+     color: #ddd;
+     margin: .3em;
+     width: 100%;
+ }
+
+ .forget a {
+     text-decoration: none;
+     color: #fff;
+     transition: all .3s ease;
+ }
+
+ .forget a:hover {
+     color: rgb(119, 114, 114);
+ }
+
+
+ .sign-up {
+     font-size: 1rem;
+     padding: .5em;
+     color: #ddd;
+ }
+
+ .sign-up a {
+     color: #fff;
+     transition: all .3s ease;
+ }
+
+ .sign-up a:hover {
+     color: rgb(119, 114, 114);
+ }
